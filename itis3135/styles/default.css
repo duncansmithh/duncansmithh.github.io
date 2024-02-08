@@ -1,0 +1,8 @@
+body {
+    background-color: #E5C687;
+    color: #50382B;
+}
+
+nav > a, p > a {
+    color: #5776B2;
+}
