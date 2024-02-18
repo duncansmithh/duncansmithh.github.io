@@ -1,8 +1,42 @@
 body {
     background-color: #E5C687;
     color: #50382B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    padding: 1em;
+    text-align: center;
+    width: 100%;
+}
+
+main h2 {
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
 }
 
 nav > a, p > a {
     color: #5776B2;
+    text-decoration: none;
+}
+
+
+
+nav > a:hover, p > a:hover {
+    text-decoration: underline;
+}
+
+
+
+footer {
+    margin-top: auto;
+    padding: 1em;
+    text-align: center;
+    width: 100%;
 }
