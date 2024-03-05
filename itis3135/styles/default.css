@@ -61,18 +61,18 @@ footer {
     body {
       max-width: 92%;
     }
-  }
+}
   
-  @media screen and (min-width: 601px) and (max-width: 1024px) {
+@media screen and (min-width: 601px) and (max-width: 1024px) {
     /* Styles for medium screens */
     body {
       max-width: 80%;
     }
-  }
+}
   
-  @media screen and (min-width: 1025px) {
+@media screen and (min-width: 1025px) {
     /* Styles for large screens */
     body {
       max-width: 70%;
     }
-  }
+}
