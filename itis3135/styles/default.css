@@ -1,6 +1,13 @@
+:root {
+    --main-bg-color: #E5C687;
+    --main-text-color: #50382B;
+    --link-color: #5776B2;
+    --link-hover-color: #1d386a;
+}
+
 body {
-    background-color: #E5C687;
-    color: #50382B;
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
     text-align: center;
     font-family: Tahoma, sans-serif;
     max-width: 1200px;
@@ -32,12 +39,12 @@ h1 {
 }
 
 nav > a, p > a {
-    color: #5776B2;
+    color: var(--link-color);
     text-decoration: none;
 }
 
 nav > a:hover, p > a:hover {
-    color: #1d386a; 
+    color: var(--link-hover-color); 
 }
 
 img {
