@@ -74,9 +74,14 @@ figcaption {
     justify-content: center;
 }
 
+ol {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
 table {
     margin: 0 auto;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
     max-width: 100%;
     overflow-x: auto;
 }
