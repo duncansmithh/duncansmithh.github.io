@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duncan Smith's Dirty Skunk || ITIS3135 Tables</title>
+    <link rel="stylesheet" href="styles/default.css">
+</head>
+<body>
+    <header>
+        <div data-include="components/header.html"></div>
+    </header>
+    <main>
+        <h2>Tables</h2>
+        <h3>My Tabular Data</h3>
+        <ol>
+            <li>Lil B basedgod@gmail.com 17</li>
+            <li>Seto Kaiba richboykaiba@gmail.com 21</li>
+            <li>Robert Speedwagon swagon@gmail.com 30</li>
+            <li>Eikichi Onizuka eonizuka@gmail.com 19</li>
+            <li>Mumen Rider justicerider@gmail.com 11</li>
+            <li>Yung Lean leandoer@gmail.com 9</li>
+            <li>Joey Wheeler joeybooyah@gmail.com 8</li>
+            <li>Riki Nendo ramenpal@gmail.com 10</li>
+        </ol>
+        <h3>Employee Data in Simple Table</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Years of Service</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Lil B</td>
+                    <td>basedgod@gmail.com</td>
+                    <td>17</td>
+                </tr>
+                <tr>
+                    <td>Seto Kaiba</td>
+                    <td>richboykaiba@gmail.com</td>
+                    <td>21</td>
+                </tr>
+                <tr>
+                    <td>Robert Speedwagon</td>
+                    <td>swagon@gmail.com</td>
+                    <td>30</td>
+                </tr>
+                <tr>
+                    <td>Eikichi Onizuka</td>
+                    <td>eonizuka@gmail.com</td>
+                    <td>19</td>
+                </tr>
+                <tr>
+                    <td>Mumen Rider</td>
+                    <td>justicerider@gmail.com</td>
+                    <td>11</td>
+                </tr>
+                <tr>
+                    <td>Yung Lean</td>
+                    <td>leandoer@gmail.com</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td>Joey Wheeler</td>
+                    <td>joeybooyah@gmail.com</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>Riki Nendo</td>
+                    <td>ramenpal@gmail.com</td>
+                    <td>10</td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>Employee Data in Complex Table</h3>
+        <figure>
+            <figcaption>Employee Information</figcaption>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Category</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Years of Service</th>
+                        <th>Salary</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td id="table-category">Mastermind</td>
+                        <td>Lil B</td>
+                        <td>basedgod@gmail.com</td>
+                        <td>17</td>
+                        <td>$10,000,000</td>
+                    </tr>
+                    <tr>
+                        <td id="table-category" rowspan="3">Executives</td>
+                        <td>Seto Kaiba</td>
+                        <td>richboykaiba@gmail.com</td>
+                        <td>21</td>
+                        <td>$3,500,000</td>
+                    </tr>
+                    <tr>
+                        <td>Robert Speedwagon</td>
+                        <td>swagon@gmail.com</td>
+                        <td>30</td>
+                        <td>$4,000,000</td>
+                    </tr>
+                    <tr>
+                        <td>Eikichi Onizuka</td>
+                        <td>eonizuka@gmail.com</td>
+                        <td>19</td>
+                        <td>$2,000,000</td>
+                    </tr>
+                    <tr>
+                        <td id="table-category" rowspan="4">Henchmen</td>
+                        <td>Mumen Rider</td>
+                        <td>justicerider@gmail.com</td>
+                        <td>11</td>
+                        <td>$225,000</td>
+                    </tr>
+                    <tr>
+                        <td>Yung Lean</td>
+                        <td>leandoer@gmail.com</td>
+                        <td>9</td>
+                        <td>$200,000</td>
+                    </tr>
+                    <tr>
+                        <td>Joey Wheeler</td>
+                        <td>joeybooyah@gmail.com</td>
+                        <td>8</td>
+                        <td>$95,000</td>
+                    </tr>
+                    <tr>
+                        <td>Riki Nendo</td>
+                        <td>ramenpal@gmail.com</td>
+                        <td>10</td>
+                        <td>$10,000</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <td id="table-category" colspan="4">Total Annual Salary Budget</td>
+                    <td>$20,030,000</td>
+                </tfoot>
+            </table>
+        </figure>
+    </main>
+    <footer> 
+        <div data-include="components/footer.html"></div>  
+    </footer>
+    <script>
+        document.getElementById("validation_link_html").setAttribute("href", "https://validator.w3.org/check?uri=" + location.href);
+        document.getElementById("validation_link_css").setAttribute("href", "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
+    </script>
+    <script src="scripts/include.js"></script>
+</body>
+</html>
