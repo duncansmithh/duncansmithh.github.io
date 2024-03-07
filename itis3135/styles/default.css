@@ -21,6 +21,15 @@ header {
     width: 100%;
 }
 
+nav > a, p > a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+nav > a:hover, p > a:hover {
+    color: var(--link-hover-color); 
+}
+
 main {
     text-align: left;
     margin-left: 25%;
@@ -31,6 +40,7 @@ main {
 
 h1 {
     margin: 0;
+    margin-bottom: 15px;
 }
 
 main h2 {
@@ -40,15 +50,6 @@ main h2 {
 
 h3 {
     text-align: center;
-}
-
-nav > a, p > a {
-    color: var(--link-color);
-    text-decoration: none;
-}
-
-nav > a:hover, p > a:hover {
-    color: var(--link-hover-color); 
 }
 
 img {
@@ -68,6 +69,11 @@ figcaption {
     margin-bottom: 10px;
 }
 
+.employees {
+    display: flex;
+    justify-content: center;
+}
+
 table {
     margin: 0 auto;
     margin-bottom: 1em;
@@ -80,7 +86,7 @@ thead {
     color: var(--main-bg-color)
 }
 
-#table-category {
+.table-category {
     background-color: var(--main-bg-color);
     color: var(--main-text-color)
 }
