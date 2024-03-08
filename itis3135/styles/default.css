@@ -117,15 +117,41 @@ form {
     flex-direction: column;
     align-items: center;
     border: 2px solid var(--main-text-color);
-    padding: 1em 0 0 0;
-    margin: 20px 0 20px 0;
+    border-color: var(--main-text-color);
+    padding: 1em 1.2em .4em 1.2em;
+    margin: 20px auto 20px auto;
+    width: 40%;
 }
 
 fieldset {
     margin-bottom: 10px;
     border: none;
     padding: 5px;
-    width: 60%;
+    width: 100%;
+    margin: 5px auto 5px auto
+}
+
+#phone {
+    width: 120px;
+
+}
+
+#email {
+    width: 179px;
+}
+
+button {
+    background-color: var(--main-text-color);
+    color: var(--main-bg-color);
+    padding: 7px 14px;
+    margin: 10px 0 10px 0;
+    cursor: pointer;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
 }
 
 label {
