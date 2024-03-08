@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duncan Smith's Dirty Skunk || ITIS3135 Form</title>
+    <link rel="stylesheet" href="styles/default.css">
+</head>
+<body>
+    <header>
+        <div data-include="components/header.html"></div>
+    </header>
+    <main>
+        <h2>Form</h2>
+        <form action="#">
+            <fieldset>
+                <label for="name">
+                    Name:
+                    <input required type="text" id="name" name="name" placeholder="Ex: John Smith">
+                </label>
+                <label for="phone">
+                    Phone Number:
+                    <input required type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Ex: 123-456-7890">
+                </label>
+                <label for="email">
+                    Email:
+                    <input required type="email" id="email" name="email" placeholder="Ex: johnsmith@gmail.com">
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Have you dueled before?</legend>
+                <label for="yes">
+                    <input type="radio" id="yes" name="duel" value="yes">
+                    Yes
+                </label>
+                <label for="no">
+                    <input type="radio" id="no" name="duel" value="no">
+                    No
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>For what reason do you duel?</legend>
+                <label for="honor">
+                    <input type="checkbox" id="honor" name="reason" value="honor">
+                    Honor
+                </label>
+                <label for="money">
+                    <input type="checkbox" id="money" name="reason" value="money">
+                    Money
+                </label>
+                <label for="revenge">
+                    <input type="checkbox" id="revenge" name="reason" value="revenge">
+                    Revenge
+                </label>
+                <label for="other">
+                    <input type="checkbox" id="other" name="reason" value="other">
+                    Other
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Which playstyles suit you?</legend>
+                <label for="strategy">
+                    <input type="checkbox" id="strategy" name="attract" value="strategy">
+                    Controling and outlasting your opponents
+                </label>
+                <label for="straightforward">
+                    <input type="checkbox" id="straightforward" name="attract" value="straightforward">
+                    Overwhelming your adversaries with force
+                </label>
+                <label for="versatile">
+                    <input type="checkbox" id="versatile" name="attract" value="versatile">
+                    Adapting to and getting the best of any situation
+            </fieldset>
+            <fieldset>
+                <label for="card-choice">Select your card of choice</label>
+                <select name="card-choice" id="card-choice">
+                    <option value="0">Select a card</option>
+                    <option value="1">Blue-Eyes White Dragon</option>
+                    <option value="2">Dark Magician</option>
+                    <option value="3">Red-Eyes Black Dragon</option>
+                    <option value="4">Exodia the Forbidden One</option>
+                    <option value="5">Slifer the Sky Dragon</option>
+                    <option value="6">Obelisk the Tormentor</option>
+                    <option value="7">The Winged Dragon of Ra</option>
+            </fieldset>
+            <fieldset class="buttons">
+                <label for="reset">
+                    <input type="reset" id="reset" value="Reset">
+                </label>
+                <label for="submit">
+                    <input type="submit" id="submit" value="Submit">
+                </label>
+            </fieldset>
+        </form>
+    </main>
+    <footer> 
+        <div data-include="components/footer.html"></div>  
+    </footer>
+    <script>
+        document.getElementById("validation_link_html").setAttribute("href", "https://validator.w3.org/check?uri=" + location.href);
+        document.getElementById("validation_link_css").setAttribute("href", "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
+    </script>
+    <script src="scripts/include.js"></script>
+</body>
+</html>
