@@ -9,11 +9,26 @@
             --platinum: #EAEAEA;
             --pomp-and-power: #73628A;
         }
+
         body {
             background-color: var(--platinum);
             color: var(--pomp-and-power);
             font-family: 'Lucida Grande', Verdana, sans-serif;
             margin: 5% 10%;
+            font-size: 120%;
+        }
+
+        header {
+            margin-bottom: 50px;
+        }
+
+        .logo {
+            margin-bottom: -16px;
+            margin-left: 4px
+        }
+
+        footer {
+            margin-top: 50px;
         }
 
         @media screen and (min-width: 1000px) {
@@ -26,15 +41,40 @@
 </head>
 <body>
     <header>
-        <h1>Smith Net Development</h1>
+        <h1>Smith Net Development <img src="./flower-pngtree.png" height="60px" class="logo"></h1>
     </header>
 
     <main>
+        <h2>Smith Net Development's Services</h2>
+        <p>Here at Smith Net Development, we offer a wide range of services to help you and your business succeed. We offer web development, web hosting, and web security services. Your will never be </p>
+        <h2>About Us</h2>
+        <ul>
+            <li>Dedicated to providing the industry class services</li>
+            <li>Skilled and efficient project development from our team</li>
+            <li>Emphasis on user-centric design for a positive user experience</li>
+            <li>Experienced and collaborative team focused on achieving client goals</li>
+            <li>Transparency and open communication throughout the project lifecycle</li>
+            <li>Always fully accomodating to the client and their requests</li>
+            <li>Constantly looking for ways to improve our services</li>
+        </ul>
         <h2>Our Mission</h2>
-        <p>Here at Smith Net Development, we aim to provide the best services possible in pursuit of the complete and utter domnination of our, and your competition.</p>
+        <p>We at Smith Net Development want you to know our main mission is bringing quality service and accomodation to our clients no matter what. Please feel free to reach out with inquiries:</p>
+        <ul>
+            <li>Phone: 999-973-5555</li>
+            <li>Email: snetdevelopment@gmail.com</li>
+            <li>Address: 1234 Main St, Nowhere, USA</li>
+        </ul>
     </main>
 
     <footer>
+        <p>Page created by Smith Net Development &copy;2024</p>
+        <a href="https://validator.w3.org/check?uri=referer" style="text-decoration:none;">
+            <img id = "validation_link_html" src="button_validation_html5.png" style="border:0;width:88px;height:31px" alt="Validate webpage HTML." />
+        </a>
+        
+        <a href="https://jigsaw.w3.org/css-validator/check/referer" style="text-decoration:none;">
+            <img id = "validation_link_css" src="button_validation_css.png" style="border:0;width:88px;height:31px" alt="Validate webpage CSS." />
+        </a>
     </footer>
 </body>
 </html>
