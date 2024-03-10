@@ -21,12 +21,12 @@ header {
     width: 100%;
 }
 
-nav > a, p > a {
+a {
     color: var(--link-color);
     text-decoration: none;
 }
 
-nav > a:hover, p > a:hover {
+a:hover {
     color: var(--link-hover-color); 
 }
 
