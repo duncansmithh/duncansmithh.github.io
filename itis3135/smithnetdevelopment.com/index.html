@@ -18,7 +18,7 @@
             background-color: var(--platinum);
             color: var(--pomp-and-power);
             font-family: 'Lucida Grande', Verdana, sans-serif;
-            margin: 5% 10%;
+            margin: 4% 10%;
             font-size: 120%;
         }
 
@@ -81,5 +81,10 @@
             <img id = "validation_link_css" src="button_validation_css.png" style="border:0;width:88px;height:31px" alt="Validate webpage CSS." />
         </a>
     </footer>
+
+    <script>
+        document.getElementById("validation_link_html").setAttribute("href", "https://validator.w3.org/check?uri=" + location.href);
+        document.getElementById("validation_link_css").setAttribute("href", "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
+    </script>
 </body>
 </html>
