@@ -41,29 +41,11 @@ function resetForm(event) {
 function submitForm(event) {
     event.preventDefault();
     
-    const name = document.getElementById('name').value;
-    const mascot = document.getElementById('mascot').value;
-    const image = document.getElementById('image').value;
-    const imageCaption = document.getElementById('imageCaption').value;
-    const personalBackground = document.getElementById('personalBackground').value;
-    const professionalBackground = document.getElementById('professionalBackground').value;
-    const academicBackground = document.getElementById('academicBackground').value;
-    const webDevelopmentBackground = document.getElementById('webDevelopmentBackground').value;
-    const primaryComputerPlatform = document.getElementById('primaryComputerPlatform').value;
-    const funnyThing = document.getElementById('funnyThing').value;
-    const anythingElse = document.getElementById('anythingElse').value;
-    const agreeCheckbox = document.getElementById('agreeCheckbox').checked;
-
-    if (name && mascot && image && imageCaption && personalBackground &&
-        professionalBackground && academicBackground && webDevelopmentBackground &&
-        primaryComputerPlatform && coursesArray && funnyThing && anythingElse && agreeCheckbox) {
-        if (coursesArray.length === 0) {
-            alert('Please add at least one course before submitting.');
-            return;
-        }
-        displayFormData();
+    if (coursesArray.length === 0) {
+        alert('Please add at least one course before submitting.');
+        return;
     } else {
-        alert('Please fill out all required fields.');
+        displayFormData();
     }
 }
 
@@ -84,7 +66,7 @@ function displayFormData() {
     <main>
         <h2>${name} || ${mascot}</h2>
         <figure>
-            <img src="${URL.createObjectURL(image)}" alt="${image.name}">
+            <img src="${URL.createObjectURL(image)}" alt="image caption">
             <figcaption>${imageCaption}</figcaption>
         </figure>
         <ul>
@@ -101,7 +83,12 @@ function displayFormData() {
             <li><strong>Funny thing? </strong>${funnyThing}</li>
             <li><strong>Anything else? </strong>${anythingElse}</li>
         </ul>
+        <button onclick="refreshPage()">Start Over</button>
     </main>
     `;
-    document.main.innerHTML = content;
+    document.querySelector('main').innerHTML = content;
+}
+
+function refreshPage() {
+    location.reload();
 }
