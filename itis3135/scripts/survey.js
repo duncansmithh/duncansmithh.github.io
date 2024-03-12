@@ -83,7 +83,7 @@ function displayFormData() {
             <li><strong>Funny thing? </strong>${funnyThing}</li>
             <li><strong>Anything else? </strong>${anythingElse}</li>
         </ul>
-        <button onclick="refreshPage()">Start Over</button>
+        <button id="start-over" onclick="refreshPage()">Start Over</button>
     </main>
     `;
     document.querySelector('main').innerHTML = content;
