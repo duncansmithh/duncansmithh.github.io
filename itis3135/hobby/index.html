@@ -6,14 +6,20 @@
     <title>Hobby Site</title>
     <link rel="icon" href="images/dumbbell.png">
     <style>
+        :root {
+            --main-bg-color: #D0CFEC;
+            --secondary-bg-color: #A9A7DC;
+            --main-text-color: #0F5257;
+            --link-color: #212003;
+        }
         body {
             font-family: Verdana, sans-serif;
             font-size: 120%;
-            color: #088140;
-            background-color: #D0CFEC;
+            color: var(--main-text-color);
+            background-color: var(--main-bg-color);
         }
         header {
-            background-color: #A9A7DC;
+            background-color: var(--secondary-bg-color);
             text-align: center;
             padding: 20px 0 22px 0;
         }
@@ -59,24 +65,24 @@
             overflow-x: auto;
         }
         thead {
-            background-color: #A9A7DC;
-            color: #088140;
+            background-color: var(--secondary-bg-color);
+            color: var(--main-text-color);
         }
         td, th {
             border: 1px solid;
             padding: 5px;
             text-align: left;
-            border-color: #088140;
+            border-color: var(--main-text-color);
         }
         tr:nth-child(odd):not(:first-child) {
-            background-color: #D0CFEC;
+            background-color: var(--main-bg-color);
         }
         tr:nth-child(even) {
-            background-color: #088140;
-            color: #D0CFEC;
+            background-color: var(--main-text-color);
+            color: var(--main-bg-color);
         }
         footer {
-            background-color: #A9A7DC;
+            background-color: var(--secondary-bg-color);
             padding: 1em 0 1em 0;
             text-align: center;
             width: 100%;
@@ -86,11 +92,15 @@
             padding: 0px 5px 15px 5px;
         }
         a {
-            color: #E6C229;
+            color: var(--link-color);
             text-decoration: none;
+            font-weight: bold;
         }
         a:hover {
-            font-weight: bold;
+            font-size: 110%;
+        }
+        nav {
+            color: var(--link-color);
         }
     </style>
 </head>
@@ -98,19 +108,21 @@
     <header>
         <h1>Duncan's Fitness Page</h1>
         <nav>
+            [
             <a href="#who">Who</a>
-            ||
+            ][
             <a href="#what">What</a>
-            ||
+            ][
             <a href="#when">When</a>
-            ||
+            ][
             <a href="#where">Where</a>
-            ||
+            ][
             <a href="#how">How</a>
-            ||
+            ][
             <a href="#why">Why</a>
-            ||
+            ][
             <a href="#ai">AI Prompts</a>
+            ]
         </nav>
     </header>
     <main>
@@ -299,7 +311,7 @@
         </section>
     </main>
     <footer>
-        <p>Designed by <a href="../smithnetdevelopment.com/">Smith Net Development</a> &copy;2024</p>
+        <p><strong>Designed by <a href="../smithnetdevelopment.com/">Smith Net Development</a> &copy;2024</strong></p>
 
         <a href="https://validator.w3.org/check?uri=https://webpages.charlotte.edu/dsmit417/itis3135/hobby/" id="validation_link_html" style="text-decoration:none;">
             <img src="images/button_validation_html5.png" style="border:0;width:88px;height:31px" alt="Validate webpage HTML.">
