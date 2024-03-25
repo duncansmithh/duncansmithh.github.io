@@ -3,47 +3,303 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hobby</title>
+    <title>Hobby Site</title>
+    <link rel="icon" href="images/dumbbell.png">
     <style>
-
+        body {
+            font-family: Verdana, sans-serif;
+            font-size: 120%;
+            color: #088140;
+            background-color: #D0CFEC;
+        }
+        header {
+            background-color: #A9A7DC;
+            text-align: center;
+            padding: 20px 0 22px 0;
+        }
+        h1 {
+            margin: 0;
+            margin-bottom: 15px;
+        }
+        main {
+            margin: 0 auto;
+            padding: 20px;
+            width: 80%;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        h2 {
+            margin-bottom: 10px;
+        }
+        h2, h3, figcaption {
+            text-align: center;
+        }
+        #who img, #what img, #where img, #how img {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+            margin-top: 25px;
+        }
+        .image-container {
+            text-align: center;
+        }
+        .image-container img {
+            display: inline-block;
+            margin: 0 10px;
+        }
+        figcaption {
+            font-style: italic;
+            margin-top: 5px;
+        }
+        table {
+            margin: 0 auto;
+            margin-bottom: 1em;
+            max-width: 100%;
+            overflow-x: auto;
+        }
+        thead {
+            background-color: #A9A7DC;
+            color: #088140;
+        }
+        td, th {
+            border: 1px solid;
+            padding: 5px;
+            text-align: left;
+            border-color: #088140;
+        }
+        tr:nth-child(odd):not(:first-child) {
+            background-color: #D0CFEC;
+        }
+        tr:nth-child(even) {
+            background-color: #088140;
+            color: #D0CFEC;
+        }
+        footer {
+            background-color: #A9A7DC;
+            padding: 1em 0 1em 0;
+            text-align: center;
+            width: 100%;
+        }
+        footer p {
+            margin: 0;
+            padding: 0px 5px 15px 5px;
+        }
+        a {
+            color: #E6C229;
+            text-decoration: none;
+        }
+        a:hover {
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
     <header>
-        <h1>My Hobby</h1>
+        <h1>Duncan's Fitness Page</h1>
+        <nav>
+            <a href="#who">Who</a>
+            ||
+            <a href="#what">What</a>
+            ||
+            <a href="#when">When</a>
+            ||
+            <a href="#where">Where</a>
+            ||
+            <a href="#how">How</a>
+            ||
+            <a href="#why">Why</a>
+            ||
+            <a href="#ai">AI Prompts</a>
+        </nav>
     </header>
     <main>
-        <section>
+        <section id="who">
             <h2>Who</h2>
             <h3>About Me</h3>
+            <p>
+                My name is Duncan Smith, and I am a student at UNC Charlotte. 
+                I am a Computer Science major, pursuing a concentration in cybersecurity. 
+                I live in from Weddington, North Carolina, but I've lived all over. 
+                I enjoy playing video games, reading, and spending time with my friends and family.
+                Most of all, I have a passion for fitness and health, and I enjoy working out and staying active. 
+                I've been working out for a few years now, and I've learned a lot about fitness and health along the way. 
+            </p>
+            <fig>
+                <img src="images/duncan.png" alt="Image Caption" width="300">
+                <figcaption>Duncan Smith</figcaption>
+            </fig>
+            <p>
+                This is a photo of me all pumped up after a solid lifting session.
+                I've worked very hard to get to where I am now, and I'm proud of the progress I've made.
+            </p>
         </section>
-        <section>
+        <section id="what">
             <h2>What</h2>
             <h3>About my Hobby</h3>
+            <p>
+                My hobby is fitness and health.  
+                I mainly focus on weightlifting and strength training, but recently I've been getting more into different types of cardio. 
+                While lifting is important, I also enjoy learning about nutrition and how to fuel my body properly. 
+                Health and nutrition is a large part of fitness, as without the proper care and fuel, you'd just be limiting yourself. 
+                I believe that everyone should be active you're doing yourself a diservice if you don't care for your physical well-being. 
+            </p>
+            <fig>
+                <img src="images/ai_weights.png" alt="Image Caption" width="500">
+                <figcaption>Weights</figcaption>
+            </fig>
+            <p>
+                Image Prompt: 
+                <i>
+                    A realistic image of a gym weight rack with various types and sizes of weights neatly organized on the shelves. 
+                    The overall image should convey a sense of organization and fitness.
+                </i>
+            </p>
+            <p>
+                This is a photo of some weights, which are a key part of my fitness routine. 
+                Weights are my favorite part of working out, as I enjoy the simplicity of it. 
+                There is something therapudic and calming about lifting weights, 
+                which helps me decompress and focus on my self, almost as some form of meditation.
+            </p>
         </section>
-        <section>
+        <section id="when">
             <h2>When</h2>
             <h3>Hobby Season/Schedule</h3>
+            <p>
+                I try to workout 5-6 days a week.
+                Even though I don't always hit this goal, I try to make sure I'm active every day, whether it's going for a walk or doing some bodyweight exercises.  
+                For my workout routine, my favorite at the moment is a simple push pull legs split throughout the week. 
+                Starting on Monday with push, then pull on Tuesday, and legs on Wednesday, then repeating the cycle, resting on Sunday. 
+                Tyipically I'm at the gym for anywhere from an hour to two hours, depending on the day and how I'm feeling. 
+            </p>
+            <fig>
+                <table>
+                    <thead>
+                      <tr>
+                        <th>Day</th>
+                        <th>Workout</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Monday</td>
+                        <td>Push</td>
+                      </tr>
+                      <tr>
+                        <td>Tuesday</td>
+                        <td>Pull</td>
+                      </tr>
+                      <tr>
+                        <td>Wednesday</td>
+                        <td>Legs</td>
+                      </tr>
+                      <tr>
+                        <td>Thursday</td>
+                        <td>Push</td>
+                      </tr>
+                      <tr>
+                        <td>Friday</td>
+                        <td>Pull</td>
+                      </tr>
+                      <tr>
+                        <td>Saturday</td>
+                        <td>Legs</td>
+                      </tr>
+                      <tr>
+                        <td>Sunday</td>
+                        <td>Rest</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <figcaption>Workout Schedule</figcaption>
+            </fig>
+            <p>
+                It's also important to note that consistency is key, so I'm working out year round. 
+                I've worked out in all seasons, from the hot summer days to the cold winter nights. 
+            </p>
         </section>
-        <section>
+        <section id="where">
             <h2>Where</h2>
             <h3>Hobby Location</h3>
+            <p>
+                I workout wherever I can, whether it's at the university recreational center, my apartment gym, or my local gym back home. 
+            </p>
+            <fig>
+                <img src="images/urec.png" alt="Image Caption" width="400">
+                <figcaption>Gym</figcaption>
+            </fig>
+            <p>
+                I've worked out in some pretty interesting places, from working out in the woods while camping, to doing makeshift lifts on the beach, I've always found a way to get active.
+                Over the years I've learned that you can work out anywhere, as with the right mindset and motivation, you can make anything work. 
+            </p>
         </section>
-        <section>
+        <section id="how">
             <h2>How</h2>
             <h3>Hobby Logistics</h3>
+            <p>
+                When I workout, I mainly focus on weightlifting and strength training, but I also enjoy doing different types of cardio.
+                Warming up hasn't been somethign I always do, but since learning the importance of it, I've made an effort to do it before every workout.
+            </p>
+            <fig>
+                <img src="images/meal_prep.png" alt="Image Caption" width="450">
+                <figcaption>Meal Prep</figcaption>
+            </fig>
+            <p>
+                Image Prompt: 
+                <i>
+                    An image of different kinds of meal prepped meals, such as chicken, rice, brocolli, burritos, ground beef, etc.
+                </i>
+            </p>
+            <p>
+                Nutrition is the part of fitness that I've struggled with the most, but slowly I've been getting better at it. 
+                I've learned that meal prepping is the best way to stay on track with my diet, as it helps me stay consistent and not make bad choices. 
+                While I don't always meal prep, I try to do it at least once a week, making enough food to last me a few days. 
+                My favorite meals to prep are burritos, as they're easy to make and can be customized to fit however I'm feeling that week. 
+            </p>
         </section>
-        <section>
+        <section id="why">
             <h2>Why</h2>
             <h3>Hobby Reason</h3>
+            <p>
+                I've haven't always always been an active person, as when I was younger I was overweight and didn't know better as to care for my health. 
+                I was never really taught or encouraged to be healthy by my parents or friends, which led to a slew of bad habits. 
+                Since realizing what I was doing to myself, I've made a conscious effort to change my lifestyle and become a healthier person. 
+                I've decided I want to become the best version of myself both physically and mentally, and I believe that starts with the body, 
+                as our mind feeds off our diet and physical health.
+            </p>
+            <fig>
+                <div class="image-container">
+                    <img src="images/old_progress.png" alt="Image Caption" width="225">
+                    <img src="images/progress.png" alt="Image Caption" width="300">
+                    <img src="images/progress2.png" alt="Image Caption" width="300">
+                </div>
+                <figcaption>Progress</figcaption>
+            </fig>
+            <p>
+                These are some photos of my progress over the years, and I'm proud of how far I've come. 
+                I've been unhappy with myself plenty of times my life, but I've learned that the only way to change is to take action, 
+                and as long as you stay consitent through the years, you'll get to where you want to be.  
+            </p>
         </section>
-        <section>
+        <section id="ai">
             <h2>AI Prompts</h2>
-            <h3>Prompts Used To Make This Page</h3>
+            <p>
+                The only thing I used AI for was to generate the javascript code for the different sections being shown and hidden on this page.
+            </p>
+            <p>
+                The AI prompt I used was:
+                <i>
+                    I have 7 sections on my website each with their own anchor tags in the nav, 
+                    please give the code to make it so only one section is visible at a time, 
+                    and clicking the nav links switches between them. 
+                    The sections are labeled who, what, when, where, how, why, and ai.
+                    Please make sure the what section is the only one visible when the page loads.
+                </i>
+            </p>
         </section>
     </main>
     <footer>
-        <p>Designed by <a href="smithnetdevelopment.com/">Smith Net Development</a> &copy;2024</p>
+        <p>Designed by <a href="../smithnetdevelopment.com/">Smith Net Development</a> &copy;2024</p>
 
         <a href="https://validator.w3.org/check?uri=https://webpages.charlotte.edu/dsmit417/itis3135/hobby/" id="validation_link_html" style="text-decoration:none;">
             <img src="images/button_validation_html5.png" style="border:0;width:88px;height:31px" alt="Validate webpage HTML.">
@@ -57,5 +313,38 @@
             <img src="images/button_validation_wcag.png" style="border:0;width:88px;height:31px" alt="Validate webpage accessibility">
          </a>
     </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const navLinks = document.querySelectorAll('nav a');
+            const sections = document.querySelectorAll('main section');
+
+            // Show only the "What" section initially
+            sections.forEach(section => {
+                if (section.id === 'what') {
+                    section.style.display = 'block';
+                } else {
+                    section.style.display = 'none';
+                }
+            });
+
+            navLinks.forEach(navLink => {
+                navLink.addEventListener('click', function(event) {
+                    event.preventDefault();
+                    const targetId = this.getAttribute('href').substring(1); // Remove the '#'
+
+                    // Hide all sections
+                    sections.forEach(section => {
+                        section.style.display = 'none';
+                    });
+
+                    // Show the target section
+                    const targetSection = document.getElementById(targetId);
+                    if (targetSection) {
+                        targetSection.style.display = 'block';
+                    }
+                });
+            });
+        });
+    </script>
 </body>
 </html>
