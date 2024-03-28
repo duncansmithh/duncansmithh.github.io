@@ -205,6 +205,33 @@ label {
     margin: 0 auto;
 }
 
+.calculator_try {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto 0 auto;
+    max-width: 520px;
+}
+
+.calculator_try > input {
+    margin: 5px 0 10px 0;
+}
+
+.calculator_try > .buttons {
+    width: 40%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+
+.buttons > button {
+    margin-bottom: 5px;
+}
+
+.buttons > button:last-child {
+    grid-column: span 4;
+}
+
 footer {
     margin-top: auto;
     padding: 1em 0 1em 0;
