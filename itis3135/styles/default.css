@@ -232,6 +232,11 @@ label {
     grid-column: span 4;
 }
 
+.toggle-css {
+    margin-top: 0;
+    margin-bottom: -10px;
+}
+
 footer {
     margin-top: auto;
     padding: 1em 0 1em 0;
