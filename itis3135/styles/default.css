@@ -62,13 +62,11 @@ figure {
     max-width: 100%;
     overflow-x: auto;
 }
-
 figure > img {
     width: auto;
     max-height: 300px;
     margin: 20px auto 10px auto;
 }
-
 figcaption {
     font-style: italic;
     text-align: center;
@@ -91,28 +89,23 @@ table {
     max-width: 100%;
     overflow-x: auto;
 }
-
 thead {
     background-color: #35251D;
     color: var(--main-bg-color)
 }
-
 .table-category {
     background-color: var(--main-bg-color);
     color: var(--main-text-color)
 }
-
 td, th {
     border: 1px solid;
     padding: 5px;
     text-align: left;
     border-color: var(--main-text-color);
 }
-
 tr:nth-child(odd):not(:first-child) {
     background-color: var(--main-bg-color);
 }
-
 tr:nth-child(even) {
     background-color: var(--main-text-color);
     color: var(--main-bg-color)
@@ -128,7 +121,6 @@ form {
     margin: 20px auto 20px auto;
     width: 40%;
 }
-
 fieldset {
     margin-bottom: 10px;
     border: none;
@@ -141,7 +133,6 @@ fieldset {
     width: 120px;
 
 }
-
 #email {
     width: 179px;
 }
@@ -170,28 +161,23 @@ label {
     margin: 0 auto;
     max-width: 1200px;
 }
-
 #greetingSection > input, #polygonSection > input {
     margin: 5px 0 15px 0;
 }
-
 #greetingSection > button, #polygonSection > button {
     display: block;
     margin: 0 auto;
 }
-
 #cardSection {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 20px;
 }
-
 #buttonContainer {
     display: inline-block;
     margin: 0 10px;
 }
-
 #buttonContainer > input {
     background-color: var(--main-text-color);
     color: var(--main-bg-color);
@@ -199,7 +185,6 @@ label {
     margin: 0 10px 20px 10px;
     cursor: pointer;
 }
-
 #start-over {
     display: block;
     margin: 0 auto;
@@ -212,24 +197,43 @@ label {
     margin: 20px auto 0 auto;
     max-width: 520px;
 }
-
 .calculator_try > input {
     margin: 5px 0 10px 0;
 }
-
 .calculator_try > .buttons {
     width: 40%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 5px;
 }
-
 .buttons > button {
     margin-bottom: 5px;
 }
-
 .buttons > button:last-child {
     grid-column: span 4;
+}
+
+#add-salary {
+    margin-top: 20px;
+}
+.array-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.array-container > * {
+    margin-right: 10px;
+}
+.array-container > :first-child {
+    margin-left: 0 auto;
+}
+.array-container > :last-child {
+    margin-right: 0 auto;
+}
+.array-container #display-buttons {
+    flex-direction: row;
 }
 
 .toggle-css {
@@ -248,15 +252,13 @@ footer {
     body {
       max-width: 92%;
     }
-}
-  
+} 
 @media screen and (min-width: 601px) and (max-width: 1024px) {
     /* Styles for medium screens */
     body {
       max-width: 80%;
     }
-}
-  
+} 
 @media screen and (min-width: 1025px) {
     /* Styles for large screens */
     body {
