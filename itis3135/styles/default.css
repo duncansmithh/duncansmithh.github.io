@@ -8,11 +8,10 @@
 body {
     background-color: var(--main-bg-color);
     color: var(--main-text-color);
-    text-align: center;
     font-family: Tahoma, sans-serif;
-    max-width: 1200px;
-    margin: 0 auto;
     font-size: 120%;
+    margin: 0 auto;
+    text-align: center;
 }
 
 header {
@@ -31,11 +30,9 @@ a:hover {
 }
 
 main {
-    text-align: left;
-    margin-left: 25%;
-    margin-right: 25%;
     margin: 0 auto;
     max-width: 1200px;
+    text-align: left;
 }
 
 h1 {
@@ -43,7 +40,7 @@ h1 {
     margin-bottom: 15px;
 }
 
-main h2 {
+h2 {
     margin: 0;
     text-align: center;
 }
@@ -58,19 +55,19 @@ img {
 
 figure {
     margin: 0;
-    text-align: center;
     max-width: 100%;
     overflow-x: auto;
+    text-align: center;
 }
 figure > img {
-    width: auto;
-    max-height: 300px;
     margin: 20px auto 10px auto;
+    max-height: 300px;
+    width: auto;
 }
 figcaption {
     font-style: italic;
-    text-align: center;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .employees {
@@ -79,8 +76,8 @@ figcaption {
 }
 
 ol {
-    margin-top: 5px;
     margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 table {
@@ -91,17 +88,17 @@ table {
 }
 thead {
     background-color: #35251D;
-    color: var(--main-bg-color)
+    color: var(--main-bg-color);
 }
 .table-category {
     background-color: var(--main-bg-color);
-    color: var(--main-text-color)
+    color: var(--main-text-color);
 }
 td, th {
     border: 1px solid;
+    border-color: var(--main-text-color);
     padding: 5px;
     text-align: left;
-    border-color: var(--main-text-color);
 }
 tr:nth-child(odd):not(:first-child) {
     background-color: var(--main-bg-color);
@@ -112,21 +109,21 @@ tr:nth-child(even) {
 }
 
 form {
-    display: flex;
-    flex-direction: column;
     align-items: center;
     border: 2px solid var(--main-text-color);
     border-color: var(--main-text-color);
-    padding: 1em 1.2em .4em 1.2em;
+    display: flex;
+    flex-direction: column;
     margin: 20px auto 20px auto;
+    padding: 1em 1.2em .4em 1.2em;
     width: 40%;
 }
 fieldset {
-    margin-bottom: 10px;
     border: none;
+    margin: 5px auto 5px auto;
+    margin-bottom: 10px;
     padding: 5px;
     width: 100%;
-    margin: 5px auto 5px auto
 }
 
 #phone {
@@ -140,9 +137,9 @@ fieldset {
 button {
     background-color: var(--main-text-color);
     color: var(--main-bg-color);
-    padding: 7px 14px;
-    margin: 10px 0 10px 0;
     cursor: pointer;
+    margin: 10px 0 10px 0;
+    padding: 7px 14px;
 }
 
 .buttons {
@@ -157,9 +154,9 @@ label {
 }
 
 #greetingSection, #polygonSection, #cardSection {
-    text-align: center;
     margin: 0 auto;
     max-width: 1200px;
+    text-align: center;
 }
 #greetingSection > input, #polygonSection > input {
     margin: 5px 0 15px 0;
@@ -169,9 +166,9 @@ label {
     margin: 0 auto;
 }
 #cardSection {
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
     margin-top: 20px;
 }
 #buttonContainer {
@@ -181,9 +178,9 @@ label {
 #buttonContainer > input {
     background-color: var(--main-text-color);
     color: var(--main-bg-color);
-    padding: 7px 14px;
-    margin: 0 10px 20px 10px;
     cursor: pointer;
+    margin: 0 10px 20px 10px;
+    padding: 7px 14px;
 }
 #start-over {
     display: block;
@@ -191,9 +188,9 @@ label {
 }
 
 .calculator_try {
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
     margin: 20px auto 0 auto;
     max-width: 520px;
 }
@@ -201,10 +198,10 @@ label {
     margin: 5px 0 10px 0;
 }
 .calculator_try > .buttons {
-    width: 40%;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
     gap: 5px;
+    grid-template-columns: repeat(4, 1fr);
+    width: 40%;
 }
 .buttons > button {
     margin-bottom: 5px;
@@ -217,10 +214,10 @@ label {
     margin-top: 20px;
 }
 .array-container {
+    align-items: center;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
     margin-bottom: 20px;
 }
 .array-container > * {

@@ -12,24 +12,25 @@
     ||
     <a href="https://www.linkedin.com/in/duncan-smith-728b02251/">LinkedIn</a>
 </nav>
-<p>Designed by <a href="smithnetdevelopment.com/">Smith Net Development</a> &copy;2024, <a href="https://www.freecodecamp.org/certification/fcca8325a42-4379-4bdc-84de-e8799db7ec43/responsive-web-design">Certified in RWD</a></p>
-<a href="https://validator.w3.org/check?uri=referer" id="validation_link_html" style="text-decoration:none;">
+<p>
+    Designed by <a href="smithnetdevelopment.com/">Smith Net Development</a> &copy;2024, 
+    <a href="https://www.freecodecamp.org/certification/fcca8325a42-4379-4bdc-84de-e8799db7ec43/responsive-web-design">Certified in RWD</a>, 
+    <a href="https://www.freecodecamp.org/certification/fcca8325a42-4379-4bdc-84de-e8799db7ec43/javascript-algorithms-and-data-structures-v8">Certified in JS</a>
+</p>
+<a href="https://validator.w3.org/check?uri=https://webpages.charlotte.edu/dsmit417/itis3135/" id="validation_link_html" style="text-decoration:none;">
     <img src="images/button_validation_html5.png" style="border:0;width:88px;height:31px" alt="Validate webpage HTML.">
 </a>
-
-<a href="https://jigsaw.w3.org/css-validator/check/referer" id="validation_link_css" style="text-decoration:none;">
+<a href="https://jigsaw.w3.org/css-validator/validator?uri=https://webpages.charlotte.edu/dsmit417/itis3135/" id="validation_link_css" style="text-decoration:none;">
     <img src="images/button_validation_css.png" style="border:0;width:88px;height:31px" alt="Validate webpage CSS.">
 </a>
-
-<a href="https://wave.webaim.org/report#/https://webpages.charlotte.edu/dsmit417/itis3135/" id="webaim" target="_blank">
+<a href="https://wave.webaim.org/report#/https://webpages.charlotte.edu/dsmit417/itis3135/" id="validation_link_disability" target="_blank">
     <img src="images/button_validation_wcag.png" style="border:0;width:88px;height:31px" alt="Validate webpage accessibility">
- </a>
-
+</a>
 <script>
     document.getElementById("validation_link_html").setAttribute("href", "https://validator.w3.org/check?uri=" + location.href);
     document.getElementById("validation_link_css").setAttribute("href", "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
+    document.getElementById("validation_link_disability").setAttribute("href","https://wave.webaim.org/report#/" + location.href);
 </script>
-
 <div class="toggle-css">
     <button type="button" onclick="document.querySelectorAll('link[rel=stylesheet]').forEach(e => e.disabled = !e.disabled);">Toggle CSS</button>
 </div>
