@@ -1,0 +1,115 @@
+body {
+    background-color: #ececec;
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 120%;
+}
+
+header {
+    background-color: #2f2f2f;
+    color: #fff;
+    padding: 1px 0 25px 0;
+    text-align: center;
+    margin: 0 auto;
+}
+
+a {
+    color: lightblue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(93, 195, 230); 
+}
+
+main {
+    margin: 0 auto;
+    max-width: 1200px;
+    text-align: left;
+}
+
+form {
+    padding-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="date"] {
+    margin-bottom: 20px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form textarea {
+    height: 100px;
+}
+
+form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 320px;
+    height: 70vh;
+    padding: 20px;
+}
+
+img {
+    max-width: 100%; /* Ensure the image doesn't exceed the viewport width */
+    max-height: 100%; /* Ensure the image doesn't exceed the viewport height */
+}
+
+footer {
+    background-color: #2f2f2f;
+    color: #fff;
+    margin: 0 auto;
+    padding: .5em 0 .5em 0;
+    text-align: center;
+    width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    /* Styles for small screens */
+    main {
+      max-width: 92%;
+    }
+} 
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Styles for medium screens */
+    main {
+      max-width: 80%;
+    }
+} 
+@media screen and (min-width: 1025px) {
+    /* Styles for large screens */
+    main {
+      max-width: 70%;
+    }
+}

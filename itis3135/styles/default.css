@@ -15,9 +15,18 @@ body {
 }
 
 header {
+    margin: 0 auto;
     padding: 1em 0 1em 0;
     text-align: center;
-    width: 100%;
+    width: 95%;
+}
+
+.separator {
+    border: none;
+    border-top: 1.8px solid var(--main-text-color);
+    margin: 6px auto 3px auto;
+    min-width: 240px;
+    width: 40%;
 }
 
 a {
@@ -46,6 +55,7 @@ h2 {
 }
 
 h3 {
+    margin-bottom: 0;
     text-align: center;
 }
 
@@ -61,7 +71,7 @@ figure {
 }
 figure > img {
     margin: 20px auto 10px auto;
-    max-height: 300px;
+    max-height: 350px;
     width: auto;
 }
 figcaption {
@@ -153,19 +163,19 @@ label {
     margin-bottom: 10px;
 }
 
-#greetingSection, #polygonSection, #cardSection {
+.greetingSection, .polygonSection, .cardSection {
     margin: 0 auto;
     max-width: 1200px;
     text-align: center;
 }
-#greetingSection > input, #polygonSection > input {
+.greetingSection > input, .polygonSection > input {
     margin: 5px 0 15px 0;
 }
-#greetingSection > button, #polygonSection > button {
+.greetingSection > button, .polygonSection > button {
     display: block;
     margin: 0 auto;
 }
-#cardSection {
+.cardSection {
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -224,10 +234,10 @@ label {
     margin-right: 10px;
 }
 .array-container > :first-child {
-    margin-left: 0 auto;
+    margin-left: auto;
 }
 .array-container > :last-child {
-    margin-right: 0 auto;
+    margin-right: auto;
 }
 .array-container #display-buttons {
     flex-direction: row;
@@ -238,7 +248,7 @@ label {
 }
 
 footer {
-    margin-top: auto;
+    margin: 0 auto;
     padding: 1em 0 1em 0;
     text-align: center;
     width: 100%;
@@ -246,19 +256,19 @@ footer {
 
 @media screen and (max-width: 600px) {
     /* Styles for small screens */
-    body {
+    main {
       max-width: 92%;
     }
 } 
 @media screen and (min-width: 601px) and (max-width: 1024px) {
     /* Styles for medium screens */
-    body {
+    main {
       max-width: 80%;
     }
 } 
 @media screen and (min-width: 1025px) {
     /* Styles for large screens */
-    body {
+    main {
       max-width: 70%;
     }
 }
