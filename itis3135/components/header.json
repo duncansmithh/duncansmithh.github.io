@@ -1,0 +1,27 @@
+{
+    "h1": "Duncan Smith's Dirty Skunk || ITIS3135",
+    "menu": [
+        {"name": "Home", "url": "./"},
+        {"name": "Intro", "url": "./introduction.html"},
+        {"name": "Contract", "url": "./contract.html"},
+        {"name": "Tables", "url": "./tables.html"},
+        {"name": "Forms", "url": "./forms.html"},
+        {"name": "Evaluations", "url": "./website_evaluations.html"},
+        {"name": "First Scripts", "url": "./firstscripts.html"},
+        {"name": "About", "url": "./about.html"},
+        {"name": "BYO Intro", "url": "./byo_intro.html"},
+        {"name": "Calc Try", "url": "./calculator_try.html"},
+        {"name": "Calc fCC", "url": "./calculator_fcc.html"},
+        {"name": "Arrays", "url": "./arrays.html"},
+        {"name": "Drawing", "url": "./drawing.html"},
+        {"name": "Project Overview", "url": "./project_overview.html"},
+        {"name": "Slideshow", "url": "./slideshow.html"},
+        {"name": "Review 1", "url": "./review1.html"},
+        {"name": "Review 2", "url": "./review2.html"}
+    ],
+    "submenu": [
+        {"name": "CRAPPY Webpage", "url": "./stuff/cRApPY%20WEBs%5Cte.htm"},
+        {"name": "Hobby", "url": "./hobby"},
+        {"name": "Client Site", "url": "./project/index.html"}
+    ]
+}

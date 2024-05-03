@@ -1,0 +1,24 @@
+{
+    "slogan": "Draw your destiny",
+    "navLinks": [
+        {"name": "Charlotte.edu", "url": "https://webpages.charlotte.edu/dsmit417/"},
+        {"name": "Github", "url": "https://github.com/duncansmithh/duncansmithh.github.io"},
+        {"name": "Github.io", "url": "https://duncansmithh.github.io/"},
+        {"name": "FreeCodeCamp", "url": "https://www.freecodecamp.org/fcca8325a42-4379-4bdc-84de-e8799db7ec43"},
+        {"name": "Codecademy", "url": "https://www.codecademy.com/profiles/duncansmithh"},
+        {"name": "LinkedIn", "url": "https://www.linkedin.com/in/duncan-smith-728b02251/"}
+    ],
+    "firm": {
+        "name": "Smith Net Development",
+        "website": "smithnetdevelopment.com/"
+    },
+    "certifications": [
+        {"name": "RWD", "url": "https://www.freecodecamp.org/certification/fcca8325a42-4379-4bdc-84de-e8799db7ec43/responsive-web-design"},
+        {"name": "JS", "url": "https://www.freecodecamp.org/certification/fcca8325a42-4379-4bdc-84de-e8799db7ec43/javascript-algorithms-and-data-structures-v8"}
+    ],
+    "validation": {
+        "html": {"src": "images/button_validation_html5.png", "alt": "Validate webpage HTML."},
+        "css": {"src": "images/button_validation_css.png", "alt": "Validate webpage CSS."},
+        "wcag": {"src": "images/button_validation_wcag.png", "alt": "Validate webpage accessibility."}
+    }
+}

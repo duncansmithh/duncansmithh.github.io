@@ -86,6 +86,10 @@ img {
     max-height: 100%; /* Ensure the image doesn't exceed the viewport height */
 }
 
+#blog-page {
+    display: none;
+}
+
 footer {
     background-color: #2f2f2f;
     color: #fff;

@@ -243,6 +243,20 @@ label {
     flex-direction: row;
 }
 
+.slide-container {
+    text-align: center;
+}
+
+.next, .prev {
+    color: var(--main-text-color);
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.next:hover, .prev:hover {
+    color: var(--main-text-color);
+}
+
 .toggle-css {
     margin-top: 10px;
 }
